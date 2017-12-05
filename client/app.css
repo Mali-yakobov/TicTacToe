@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 60px;
+}
+
+h1 { color: #d54d7b; font-family: "Great Vibes", cursive; font-size: 70px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; }
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #00BFFF;
+  border: 1px solid #999;
+  float: left;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 80px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+   border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+.square:hover {
+    background-color: #B0E0E6; /*#B0E0E6*/
+    /*opacity: 0.8;*/
+    color: white;
+}
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  margin-left: 150px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.game-board{
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: "Great Vibes";
+   font-weight: bold;
+}
+
+.resetButton{
+  margin: 50px;
+  width: 80px;
+  font-weight: bold;
+  font-family: "Great Vibes";
+ box-shadow: 1px 1px 1px #888888;
+}
